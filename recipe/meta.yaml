@@ -1,5 +1,5 @@
 {% set name = "lintsampler" %}
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lintsampler-{{ version }}.tar.gz
-  sha256: dc8ab38e183bac59988a4be2b479385fae1fff55904aeb54024c27bcfc24e532
+  sha256: 7aa51fe0fa06d098cdd8c1ed11d266a907c0cd70abdff22964de77240bb18d0e
 
 build:
   noarch: python
